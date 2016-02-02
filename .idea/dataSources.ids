@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - contracts@localhost" uuid="35da0ca9-ea7b-472b-8d2b-64fcf4a28515">
+    <database-info product="MySQL" version="5.7.10-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.4">
+      <schema id="1" name="contracts"/>
+      <table id="2" parent="1" name="contracts"/>
+      <column id="3" parent="2" name="CONTRACT_NUMBER">
+        <mandatory>1</mandatory>
+        <data-type>int(6)</data-type>
+      </column>
+      <column id="4" parent="2" name="PREMIUM">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="5" parent="2" name="CONCLUSION_DATE">
+        <mandatory>1</mandatory>
+        <data-type>date</data-type>
+      </column>
+      <column id="6" parent="2" name="FIRST_NAME">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="7" parent="2" name="LAST_NAME">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="8" parent="2" name="MIDDLE_NAME">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="9" parent="2" name="BIRTH_DATE">
+        <mandatory>1</mandatory>
+        <data-type>date</data-type>
+      </column>
+      <column id="10" parent="2" name="PASSPORT_SERIAL">
+        <data-type>int(4)</data-type>
+      </column>
+      <column id="11" parent="2" name="PASSPORT_NUMBER">
+        <mandatory>1</mandatory>
+        <data-type>int(6)</data-type>
+      </column>
+      <column id="12" parent="2" name="COUNTRY">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="13" parent="2" name="INDEX">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="14" parent="2" name="REPUBLIC">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="15" parent="2" name="DISTRICT">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="16" parent="2" name="LOCALITY">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="17" parent="2" name="STREET">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="18" parent="2" name="HOUSE">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="19" parent="2" name="HOUSING">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="20" parent="2" name="BUILDING">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="21" parent="2" name="APARTMENT">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="22" parent="2" name="COMMENTS">
+        <data-type>varchar(140)</data-type>
+      </column>
+      <column id="23" parent="2" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <index id="24" parent="2" name="contracts_CONTRACT_ID_uindex">
+        <columns>ID</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="25" parent="2" name="contracts_CONTRACT_ID_uindex">
+        <columns>ID</columns>
+        <underlying-index>contracts_CONTRACT_ID_uindex</underlying-index>
+      </key>
+      <key id="26" parent="2" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+</component>

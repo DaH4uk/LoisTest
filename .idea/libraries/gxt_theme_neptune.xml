@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="gxt-theme-neptune">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/gxt-theme-neptune.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/gxt-theme-neptune.jar!/" />
+    </SOURCES>
+  </library>
+</component>

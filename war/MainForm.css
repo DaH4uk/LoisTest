@@ -1,0 +1,31 @@
+/** Add css rules here for your application. */
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+body, td, a, div, .p {
+    font-family: arial, sans-serif;
+    margin: 0 auto;
+}
+
+.underFieldLabel {
+    color: #779aff;
+    text-align: center;
+    font-size: 10px;
+
+}
+
+.mainLabel {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.main {
+    width: 1200px;
+    margin: 0 auto;
+}

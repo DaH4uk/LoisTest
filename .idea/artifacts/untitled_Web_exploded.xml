@@ -1,0 +1,30 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="untitled:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/untitled_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="untitled/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="javaee-facet-classes" facet="untitled/web/Web" />
+          <element id="module-output" name="untitled" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="org.hibernate:hibernate-entitymanager:5.0.7.Final" />
+          <element id="library" level="project" name="mysql-connector-java-5.1.38-bin" />
+          <element id="library" level="project" name="gxt-theme-triton" />
+          <element id="library" level="project" name="mysql-connector-java-5.1.38-bin (2)" />
+          <element id="library" level="project" name="gxt-theme-neptune" />
+          <element id="library" level="project" name="gxt" />
+          <element id="library" level="project" name="gwt-user" />
+          <element id="jpa-descriptors" facet="untitled/jpa/JPA" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/hibernate-core-5.0.7.Final.jar" />
+        </element>
+      </element>
+      <element id="directory" name="VAADIN">
+        <element id="directory" name="widgetsets">
+          <element id="gwt-compiler-output" facet="untitled/gwt/GWT" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

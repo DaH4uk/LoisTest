@@ -1,0 +1,27 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: small;
+    margin: 0 auto;
+
+
+}
+
+
+.underFieldLabel {
+    color: #779aff;
+    text-align: center;
+    font-size: 10px;
+
+}
+
+.labels {
+    color: blue;
+
+}
+
+.mainLabel {
+    font-size: 20px;
+    font-weight: bold;
+}
