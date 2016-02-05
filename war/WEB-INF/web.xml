@@ -14,14 +14,16 @@
         <url-pattern>/MyApplication/MainFormService</url-pattern>
     </servlet-mapping>
 
-    <servlet>
-        <servlet-name>com.myApplication.client.CreateForm CreateFormService </servlet-name>
-        <servlet-class>com.myApplication.server.CreateFormServiceImpl</servlet-class>
-    </servlet>
     <servlet-mapping>
-        <servlet-name>com.myApplication.client.CreateForm CreateFormService</servlet-name>
-        <url-pattern>/MyApplication/CreateFormService</url-pattern>
+        <servlet-name>com.myApplication.client.MainForm MainFormService</servlet-name>
+        <url-pattern>/CreateForm/MyApplicationService</url-pattern>
     </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>com.myApplication.client.MainForm MainFormService</servlet-name>
+        <url-pattern>/MyApplication/MyApplicationService</url-pattern>
+    </servlet-mapping>
+
 
     <welcome-file-list>
         <welcome-file>MainForm.html</welcome-file>
